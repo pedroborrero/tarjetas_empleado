@@ -23,11 +23,11 @@
     padding: 20px;
 }
 
-.profesion{
+/* .profesion{ 
     color: var(--text-secondary);
     font-size: 0.9rem;
     margin: 8px 0 16px;
-}
+} */
 
 .btn-conectar{
     background-color: var(--accent);
@@ -37,4 +37,22 @@
     border-radius: 20px;
     cursor: pointer;
     font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* 1.- Reducimos el logo a tamañon (icono) */
+.icono-red-social {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.profesion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 8px 0 16px;
 }
